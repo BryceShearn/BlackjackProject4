@@ -73,19 +73,19 @@ public class Hand {
 	public void dealerPlayerTurn(Scanner sc,Dealer webster,Player dealerPlayer, Player player, int sum) {
 		System.out.println(sum);
 		System.out.println("Dealer " + dealerPlayer.getName() + " reveals their hidden card!");
-		System.out.println("Test Point 1");
-			System.out.println("Test Point 2");
-		System.out.println("Test Point 3");
+	//	System.out.println("Test Point 1");
+	//		System.out.println("Test Point 2");
+	//	System.out.println("Test Point 3");
 		boolean result1 = true;
 		while (result1) {
 			int total = 0;
 		for (Card card : cards) {
 			total += card.getValue();
 		}
-			System.out.println("Test Point 4");
+	//		System.out.println("Test Point 4");
 		if (total <= 17) {
 			webster.dealCard(dealerPlayer);
-			System.out.println("Test Point 5");
+	//		System.out.println("Test Point 5");
 			if (total < 21) {
 				if (total < sum) {
 					System.out.println(player.getName() + " Wins!");
@@ -101,13 +101,13 @@ public class Hand {
 			}
 		}
 		else if (total >= 18 && total <= 20) {
-			System.out.println("Test Point 6");
+	//		System.out.println("Test Point 6");
 				if (sum > total) {
-					System.out.println("Test Point 7");
+		//			System.out.println("Test Point 7");
 					System.out.println(player.getName() + " Wins!");
 					result1 = false;
 					if (total > sum) {
-						 System.out.println("Test Point 8");
+			//			 System.out.println("Test Point 8");
 						System.out.println(dealerPlayer.getName() + " Wins!");
 						result1 = false;
 						if (total == sum) {
