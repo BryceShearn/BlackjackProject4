@@ -7,11 +7,9 @@ public enum Rank {
     JACK(10), QUEEN(10), KING(10), ACE(11);
     
     private int value;
-
     private Rank(int value) {
       this.value = value;
     }
-
     public int getValue() {
       return value;
     }

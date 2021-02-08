@@ -21,7 +21,7 @@ public class Deck {
     return deck;
   }
   
-  public int checkDeckSize() {
+  public int cardsLeftInDeck() {
     return cards.size();
   }
   
@@ -32,5 +32,5 @@ public class Deck {
   public Card dealCard() {
     return cards.remove(0);
   }
-  
+	 
 }
