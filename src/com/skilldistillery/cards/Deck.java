@@ -6,11 +6,9 @@ import java.util.List;
 
 public class Deck {
   private List<Card> cards;
-
   public Deck() {
     cards = createDeck();
   }
-  
   private List<Card> createDeck(){
     List<Card> deck = new ArrayList<>(52);
     for(Suit s : Suit.values()) {
@@ -20,17 +18,13 @@ public class Deck {
     }
     return deck;
   }
-  
   public int cardsLeftInDeck() {
     return cards.size();
   }
-  
   public void shuffle() {
     Collections.shuffle(cards);
   }
-  
   public Card dealCard() {
     return cards.remove(0);
   }
-	 
 }

@@ -1,15 +1,13 @@
 package com.skilldistillery.blackjack;
 
-import java.util.Scanner;
-
 import com.skilldistillery.cards.Card;
 
 public class Player {
 	private String name;
 	private Hand playerHand;
-	public Player() {
-	playerHand = new Hand();
-	
+	public Player(String name) {
+	this.name = name;
+		playerHand = new Hand();
 	}
 	public String getName() {
 		return name;
@@ -17,9 +15,7 @@ public class Player {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public Hand getPlayerHand(Scanner sc, Dealer webster, Player dealerPlayer, Player player) {
-		playerHand.isBlackJack();
-		playerHand.keepGoing(sc, webster, dealerPlayer, player);
+	public Hand getPlayerHand() {
 		return playerHand;
 	}
 	public void setPlayerHand(Hand playerHand) {
@@ -27,6 +23,6 @@ public class Player {
 	}
 	public void takeCard(Card card) {
 		playerHand.addCard(card);
-		setPlayerHand(playerHand);
+		//setPlayerHand(playerHand);
 	}
 }
