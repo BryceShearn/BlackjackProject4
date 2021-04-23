@@ -76,9 +76,8 @@
 <br />
 
 ## Meet The Creator:
-<i></i>
-===================================================================================
-* [Bryce Shearn](https://github.com/BryceShearn) <br />
+* [Bryce Shearn](https://github.com/BryceShearn)
+<br />
 
 <!-- USAGE EXAMPLES -->
 ## Usage
