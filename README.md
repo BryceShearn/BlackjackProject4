@@ -69,7 +69,7 @@
 <br />
 1. Whenever possible, create method's at process steps in order to
    maintain organization, and ease of access for future maintenance.
-<br />
+<br /><br />
 2. Nested loops can make debugging more difficult, so limit processes
    by incrementing them in methods.
 <br />
