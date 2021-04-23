@@ -77,7 +77,6 @@
 
 ## Meet The Creator:
 * [Bryce Shearn](https://github.com/BryceShearn)
-<br />
 
 <!-- USAGE EXAMPLES -->
 ## Usage
