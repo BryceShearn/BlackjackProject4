@@ -61,6 +61,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+<i></i>
 <br />
 ### Technologies Used
 <br />
