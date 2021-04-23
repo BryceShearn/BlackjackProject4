@@ -76,7 +76,7 @@
 <br />
 <br />
 
-### Meet The Creators:
+### Meet The Creator:
 <i></i>
 ===================================================================================
 * [Bryce Shearn](https://github.com/BryceShearn)
